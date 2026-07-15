@@ -1,4 +1,4 @@
-# FitConnect meal-parsing Worker
+# Fitness App meal-parsing Worker
 
 A thin [Cloudflare Worker](https://developers.cloudflare.com/workers/) that turns free-text meal
 descriptions (English or Georgian) into structured food items with calories and macros, by calling
@@ -122,7 +122,7 @@ npm run deploy
 Wrangler prints the live URL. The endpoint is:
 
 ```
-https://fitconnect-worker.<your-subdomain>.workers.dev/parse-meal
+https://fitness-app-worker.<your-subdomain>.workers.dev/parse-meal
 ```
 
 Smoke-test it with the same curls, swapping the host for your `*.workers.dev` URL.

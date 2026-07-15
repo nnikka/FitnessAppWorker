@@ -1,6 +1,6 @@
 {
-  // Worker name — becomes the subdomain: https://fitconnect-worker.<your-subdomain>.workers.dev
-  "name": "fitconnect-worker",
+  // Worker name — becomes the subdomain: https://fitness-app-worker.<your-subdomain>.workers.dev
+  "name": "fitness-app-worker",
   "main": "src/index.ts",
   "compatibility_date": "2025-07-15",
   "observability": {

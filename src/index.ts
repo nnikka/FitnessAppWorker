@@ -1,5 +1,5 @@
 /**
- * FitConnect meal-parsing Worker.
+ * Fitness App meal-parsing Worker.
  *
  * The mobile app sends a free-text meal description; this Worker asks Anthropic's
  * Messages API to turn it into structured food items and returns them as JSON.

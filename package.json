@@ -1,8 +1,8 @@
 {
-  "name": "fitconnect-worker",
+  "name": "fitness-app-worker",
   "version": "0.1.0",
   "private": true,
-  "description": "Cloudflare Worker that proxies AI meal parsing for the FitConnect fitness app.",
+  "description": "Cloudflare Worker that proxies AI meal parsing for the Fitness App.",
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
