@@ -140,3 +140,8 @@ Smoke-test it with the same curls, swapping the host for your `*.workers.dev` UR
   validated, negatives clamped, items capped at 10). Anthropic's
   [structured outputs](https://docs.anthropic.com/) would be a clean future upgrade to guarantee
   schema-valid JSON.
+
+
+## example:
+curl -s localhost:8787/parse-meal -H 'Content-Type: application/json' \
+  -d '{"text":"ერთი ხაჭაპური და ორი ხინკალი","locale":"ka"}'
