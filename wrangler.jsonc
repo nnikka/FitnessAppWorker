@@ -1,0 +1,12 @@
+{
+  // Worker name — becomes the subdomain: https://fitconnect-worker.<your-subdomain>.workers.dev
+  "name": "fitconnect-worker",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-07-15",
+  "observability": {
+    "enabled": true
+  }
+  // ANTHROPIC_API_KEY is provided as a secret, not here:
+  //   production: `npx wrangler secret put ANTHROPIC_API_KEY`
+  //   local dev:  put it in .dev.vars (gitignored)
+}
